@@ -41,7 +41,6 @@ export default function TicTacToe() {
         {board.map((row, rowIndex) =>
           row.map((cell, colIndex) => (
             <Cell
-              key={`${rowIndex}-${colIndex}`}
               value={cell}
               onClick={() => handleCellClick(rowIndex, colIndex)}
             />
