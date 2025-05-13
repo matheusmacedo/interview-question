@@ -1,37 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Movie Library - Interview Test
 
-## Getting Started
+This project involves developing a personal movie library application. The primary objective is to implement a defined set of core features within a one-hour timeframe.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Display Movie List:** The application must display a list of movies.
+2.  **Add to your watchlist:** Users should be able to add new movies to their library.
+3.  **Mark as Watched/Unwatched:** Functionality must be implemented to allow users to change a movie's status between 'watched' and 'unwatched'.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Follow up questions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  What other features would you add? How would you implement them?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Resources
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# interivew-question
+- https://usehooks-ts.com/react-hook/use-local-storage
+- https://www.omdbapi.com/
+- API_KEY = "dceb92db"
